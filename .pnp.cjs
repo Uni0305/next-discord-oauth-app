@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.25.0"],\
             ["eslint-config-next", "virtual:c3f8c305ac04fe43dc67f574af9c07e59b2e259471dfd28a7bc40cbc0ba334e3db4d0ae3dce78e921951a2c4471a0c6ffea2a9b6445ee4465c2cc4496c308924#npm:12.3.1"],\
             ["next", "virtual:c3f8c305ac04fe43dc67f574af9c07e59b2e259471dfd28a7bc40cbc0ba334e3db4d0ae3dce78e921951a2c4471a0c6ffea2a9b6445ee4465c2cc4496c308924#npm:12.3.1"],\
+            ["next-cookies", "npm:2.0.3"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c3f8c305ac04fe43dc67f574af9c07e59b2e259471dfd28a7bc40cbc0ba334e3db4d0ae3dce78e921951a2c4471a0c6ffea2a9b6445ee4465c2cc4496c308924#npm:18.2.0"],\
@@ -295,6 +296,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@swc/helpers", "npm:0.4.11"],\
             ["tslib", "npm:2.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/cookie", [\
+        ["npm:0.3.3", {\
+          "packageLocation": "./.yarn/cache/@types-cookie-npm-0.3.3-a5ddc16db3-450c930d79.zip/node_modules/@types/cookie/",\
+          "packageDependencies": [\
+            ["@types/cookie", "npm:0.3.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -700,6 +710,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/concat-map-npm-0.0.1-85a921b7ee-902a9f5d89.zip/node_modules/concat-map/",\
           "packageDependencies": [\
             ["concat-map", "npm:0.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["cookie", [\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/cookie-npm-0.4.2-7761894d5f-a00833c998.zip/node_modules/cookie/",\
+          "packageDependencies": [\
+            ["cookie", "npm:0.4.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2117,6 +2136,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["next-cookies", [\
+        ["npm:2.0.3", {\
+          "packageLocation": "./.yarn/cache/next-cookies-npm-2.0.3-80c70f5e17-1478895017.zip/node_modules/next-cookies/",\
+          "packageDependencies": [\
+            ["next-cookies", "npm:2.0.3"],\
+            ["universal-cookie", "npm:4.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["next-discord-oauth-app", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -2128,6 +2157,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.25.0"],\
             ["eslint-config-next", "virtual:c3f8c305ac04fe43dc67f574af9c07e59b2e259471dfd28a7bc40cbc0ba334e3db4d0ae3dce78e921951a2c4471a0c6ffea2a9b6445ee4465c2cc4496c308924#npm:12.3.1"],\
             ["next", "virtual:c3f8c305ac04fe43dc67f574af9c07e59b2e259471dfd28a7bc40cbc0ba334e3db4d0ae3dce78e921951a2c4471a0c6ffea2a9b6445ee4465c2cc4496c308924#npm:12.3.1"],\
+            ["next-cookies", "npm:2.0.3"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c3f8c305ac04fe43dc67f574af9c07e59b2e259471dfd28a7bc40cbc0ba334e3db4d0ae3dce78e921951a2c4471a0c6ffea2a9b6445ee4465c2cc4496c308924#npm:18.2.0"],\
@@ -2848,6 +2878,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["has-bigints", "npm:1.0.2"],\
             ["has-symbols", "npm:1.0.3"],\
             ["which-boxed-primitive", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["universal-cookie", [\
+        ["npm:4.0.4", {\
+          "packageLocation": "./.yarn/cache/universal-cookie-npm-4.0.4-aa9b4bcfbf-bb2bafa7eb.zip/node_modules/universal-cookie/",\
+          "packageDependencies": [\
+            ["universal-cookie", "npm:4.0.4"],\
+            ["@types/cookie", "npm:0.3.3"],\
+            ["cookie", "npm:0.4.2"]\
           ],\
           "linkType": "HARD"\
         }]\

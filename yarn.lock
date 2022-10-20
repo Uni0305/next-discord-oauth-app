@@ -216,6 +216,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/cookie@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "@types/cookie@npm:0.3.3"
+  checksum: 450c930d792a4fd5a93645b4123f02596368f904dbb1fe6fbb5043bce8f6ecf877a08511c6ba11c8e28168f62bc278e68d214f002fab927c9056c0bc69f21370
+  languageName: node
+  linkType: hard
+
 "@types/json5@npm:^0.0.29":
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
@@ -534,6 +541,13 @@ __metadata:
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
   checksum: 902a9f5d8967a3e2faf138d5cb784b9979bad2e6db5357c5b21c568df4ebe62bcb15108af1b2253744844eb964fc023fbd9afbbbb6ddd0bcc204c6fb5b7bf3af
+  languageName: node
+  linkType: hard
+
+"cookie@npm:^0.4.0":
+  version: 0.4.2
+  resolution: "cookie@npm:0.4.2"
+  checksum: a00833c998bedf8e787b4c342defe5fa419abd96b32f4464f718b91022586b8f1bafbddd499288e75c037642493c83083da426c6a9080d309e3bd90fd11baa9b
   languageName: node
   linkType: hard
 
@@ -1621,6 +1635,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"next-cookies@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "next-cookies@npm:2.0.3"
+  dependencies:
+    universal-cookie: ^4.0.2
+  checksum: 147889501751629dab6af690491ca50f94d1538d2cc9a440cf0e4fa0d99b5594a6014505875c11a7b2536c919e93a84d0a48588958757756eed3afdc7918c482
+  languageName: node
+  linkType: hard
+
 "next-discord-oauth-app@workspace:.":
   version: 0.0.0-use.local
   resolution: "next-discord-oauth-app@workspace:."
@@ -1631,6 +1654,7 @@ __metadata:
     eslint: 8.25.0
     eslint-config-next: 12.3.1
     next: 12.3.1
+    next-cookies: ^2.0.3
     prettier: 2.7.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -2343,6 +2367,16 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"universal-cookie@npm:^4.0.2":
+  version: 4.0.4
+  resolution: "universal-cookie@npm:4.0.4"
+  dependencies:
+    "@types/cookie": ^0.3.3
+    cookie: ^0.4.0
+  checksum: bb2bafa7eb7e213e5448924329572dd1a913be00e23906189be2a0dc889b0eea1750f9c33462fc1c911d89092dbd82f6e220c2d61c4057bb3f69e7665d9d8ddf
   languageName: node
   linkType: hard
 
